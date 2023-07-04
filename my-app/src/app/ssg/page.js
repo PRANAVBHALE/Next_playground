@@ -18,14 +18,20 @@ const Page = async () => {
   const userList = (
     <>
       {users.map((user) => {
-        return <li>{user.name}</li>;
+        return (
+          <>
+            {' '}
+            <li>{user.name}</li>
+            <br></br>
+          </>
+        );
       })}
     </>
   );
 
   return (
     <>
-      SSR
+      SSG
       {userList}
     </>
   );

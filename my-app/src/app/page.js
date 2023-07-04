@@ -15,11 +15,12 @@ export default function Home() {
           justifyContent: 'space-evenly',
         }}
       >
-        <Link href="/ssr">
-          <h1>SSR</h1>
+        <Link href="/ssg">
+          <h1>SSG</h1>
         </Link>
-        <h1>SGR</h1>
+
         <h1>ISR</h1>
+        <h1>SSR</h1>
       </div>
     </main>
   );
