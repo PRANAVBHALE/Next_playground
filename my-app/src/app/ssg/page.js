@@ -1,4 +1,4 @@
-import getUsers from '@/lib/apis';
+import { getUsers } from '@/lib/apis';
 
 // export const getUsers = async () => {
 //   const res = await fetch('https://jsonplaceholder.typicode.com/users');
